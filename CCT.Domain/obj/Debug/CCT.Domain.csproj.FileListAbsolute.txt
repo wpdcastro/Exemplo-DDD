@@ -1,0 +1,1 @@
+c:\users\lab\source\repos\CCT\CCT.Domain\obj\Debug\CCT.Domain.csproj.CoreCompileInputs.cache
