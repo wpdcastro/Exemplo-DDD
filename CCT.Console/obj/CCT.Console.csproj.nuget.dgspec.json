@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\felip\\Downloads\\CCToficial\\cctMk1\\CCT.Console\\CCT.Console.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\felip\\Downloads\\CCToficial\\cctMk1\\CCT.Console\\CCT.Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\felip\\Downloads\\CCToficial\\cctMk1\\CCT.Console\\CCT.Console.csproj",
+        "projectName": "CCT.Console",
+        "projectPath": "C:\\Users\\felip\\Downloads\\CCToficial\\cctMk1\\CCT.Console\\CCT.Console.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\felip\\Downloads\\CCToficial\\cctMk1\\CCT.Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\felip\\Downloads\\CCToficial\\cctMk1\\CCT.Domain\\CCT.Domain.csproj": {
+                "projectPath": "C:\\Users\\felip\\Downloads\\CCToficial\\cctMk1\\CCT.Domain\\CCT.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\felip\\Downloads\\CCToficial\\cctMk1\\CCT.Domain\\CCT.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\felip\\Downloads\\CCToficial\\cctMk1\\CCT.Domain\\CCT.Domain.csproj",
+        "projectName": "CCT.Domain",
+        "projectPath": "C:\\Users\\felip\\Downloads\\CCToficial\\cctMk1\\CCT.Domain\\CCT.Domain.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}

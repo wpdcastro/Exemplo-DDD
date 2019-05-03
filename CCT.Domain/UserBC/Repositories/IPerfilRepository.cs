@@ -7,8 +7,11 @@ using CCT.Domain.UserBC.Entities;
 
 namespace CCT.Domain.UserBC.Repositories
 {
-    public interface IConquestRepository
+     public interface IPerfilRepository
     {
-        IList<Conquest> GetConquestByUserId(int user_id);
+        Perfil GetById(Guid id);
+        void Save();
+
+        IEnumerable<Perfil> GetPefis();
     }
 }

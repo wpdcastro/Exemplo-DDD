@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E011B3A1-942D-4A69-8A24-22CFA76DB6D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCT.Domain", "CCT.Domain\CCT.Domain.csproj", "{D4EC6ED1-0106-47E8-A770-E683BABC0F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCT.Console", "CCT.Console\CCT.Console.csproj", "{B39D33DC-2C95-475B-8703-BEB76B2697E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4EC6ED1-0106-47E8-A770-E683BABC0F88} = {D4EC6ED1-0106-47E8-A770-E683BABC0F88}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +22,17 @@ Global
 		{D4EC6ED1-0106-47E8-A770-E683BABC0F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4EC6ED1-0106-47E8-A770-E683BABC0F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4EC6ED1-0106-47E8-A770-E683BABC0F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B39D33DC-2C95-475B-8703-BEB76B2697E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39D33DC-2C95-475B-8703-BEB76B2697E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39D33DC-2C95-475B-8703-BEB76B2697E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39D33DC-2C95-475B-8703-BEB76B2697E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D4EC6ED1-0106-47E8-A770-E683BABC0F88} = {E011B3A1-942D-4A69-8A24-22CFA76DB6D3}
+		{B39D33DC-2C95-475B-8703-BEB76B2697E1} = {E011B3A1-942D-4A69-8A24-22CFA76DB6D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7837AB1B-F2EE-4AED-80AD-631A99C9264F}

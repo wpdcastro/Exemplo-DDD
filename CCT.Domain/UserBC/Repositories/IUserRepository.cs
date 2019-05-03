@@ -7,8 +7,10 @@ using CCT.Domain.UserBC.Entities;
 
 namespace CCT.Domain.UserBC.Repositories
 {
-    public class IUserRepository
+    public interface IUserRepository
     {
-        User getById(Guid id);
+        UserBC.Entities.User GetById(Guid id);
+        void save(UserBC.Entities.User user);
+        IEnumerable<UserBC.Entities.User> GetUsers();
     }
 }

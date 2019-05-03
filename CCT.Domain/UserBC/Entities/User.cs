@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CCT.Domain.UserBC.Entities
 {
-    public class User
+    public class User 
     {
        
         public User(String first_name, String last_name, String nickname, DateTime birth_date, String email, String password)
@@ -34,21 +34,14 @@ namespace CCT.Domain.UserBC.Entities
         public Email Email_user { get; private set; }
         public List<Conquest> conquest { get; private set; }
 
-        public void updateUser(String email, String password, String nickname, String first_name, String last_name)
-        {
-            Change_FirstName(first_name);
-            Change_Lastname(last_name);
-            ChangeEmail(email);
-            ChangePassword(password);
-            ChangeNickname(nickname);
-        }
+      
 
-        private void Change_Lastname(String last_name)
+        public void Change_Lastname(String last_name)
         {
             LastName = last_name;
         }
 
-        private void Change_FirstName(String first_name)
+        public void Change_FirstName(String first_name)
         {
             FirstName = first_name;
         }
@@ -58,16 +51,16 @@ namespace CCT.Domain.UserBC.Entities
             conquest.Add(new Conquest(conquest_name, type_conquest));
         }       
 
-        private void ChangeNickname(String new_nickname)
+        public void ChangeNickname(String new_nickname)
         {
             Nickname = new_nickname;
         }
 
-        private void ChangePassword(String new_password)
+        public void ChangePassword(String new_password)
         {
             Password = new_password;
         }
-        private void ChangeEmail(string email)
+        public void ChangeEmail(string email)
         {
             Email_user = new Email(email);
         }

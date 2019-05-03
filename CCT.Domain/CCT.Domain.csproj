@@ -103,12 +103,16 @@
     <Compile Include="UserBC\Entities\Perfil.cs" />
     <Compile Include="UserBC\Entities\User.cs" />
     <Compile Include="UserBC\Repositories\IConquestRepository.cs" />
+    <Compile Include="UserBC\Repositories\IPerfilRepository.cs" />
     <Compile Include="UserBC\Repositories\IUserRepository.cs" />
+    <Compile Include="UserBC\Tests\TestPerfil.cs" />
+    <Compile Include="UserBC\Tests\TestEmail.cs" />
+    <Compile Include="UserBC\Tests\TestConquista.cs" />
+    <Compile Include="UserBC\Tests\TestUser.cs" />
     <Compile Include="UserBC\ValueObjects\Email.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Forum\" />
-    <Folder Include="UserBC\Tests\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

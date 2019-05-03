@@ -1,0 +1,16 @@
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\bin\Debug\netcoreapp2.1\CCT.Console.deps.json
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\bin\Debug\netcoreapp2.1\CCT.Console.runtimeconfig.json
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\bin\Debug\netcoreapp2.1\CCT.Console.runtimeconfig.dev.json
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\bin\Debug\netcoreapp2.1\CCT.Console.dll
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\bin\Debug\netcoreapp2.1\CCT.Console.pdb
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\bin\Debug\netcoreapp2.1\CCT.Domain.dll
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\bin\Debug\netcoreapp2.1\Flunt.dll
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\bin\Debug\netcoreapp2.1\CCT.Domain.pdb
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\bin\Debug\netcoreapp2.1\CCT.Domain.dll.config
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\obj\Debug\netcoreapp2.1\CCT.Console.csprojAssemblyReference.cache
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\obj\Debug\netcoreapp2.1\CCT.Console.csproj.CoreCompileInputs.cache
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\obj\Debug\netcoreapp2.1\CCT.Console.AssemblyInfoInputs.cache
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\obj\Debug\netcoreapp2.1\CCT.Console.AssemblyInfo.cs
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\obj\Debug\netcoreapp2.1\CCT.Console.csproj.CopyComplete
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\obj\Debug\netcoreapp2.1\CCT.Console.dll
+C:\Users\felip\Downloads\CCToficial\cctMk1\CCT.Console\obj\Debug\netcoreapp2.1\CCT.Console.pdb

@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "CCT.Console/1.0.0": {
+        "dependencies": {
+          "CCT.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CCT.Console.dll": {}
+        }
+      },
+      "CCT.Domain/1.0.0": {
+        "dependencies": {
+          "Flunt": "1.0.2.0"
+        },
+        "runtime": {
+          "CCT.Domain.dll": {}
+        }
+      },
+      "Flunt.Reference/1.0.2.0": {
+        "runtime": {
+          "Flunt.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CCT.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CCT.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flunt.Reference/1.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

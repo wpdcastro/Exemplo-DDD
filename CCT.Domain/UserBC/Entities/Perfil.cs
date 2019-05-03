@@ -10,15 +10,15 @@ namespace CCT.Domain.UserBC.Entities
     {
         public Perfil (User user)
         {
-            User = user;
+            Userp = user;
         }
-        public User User { get; set; }
+        public User Userp { get; set; }
         public List<Conquest> VisibleConquest { get; private set; }
 
         //conquistas
-        public void AddConquest(User User, String name_conquest, List<Conquest> VisibleConquest)
+        public void AddConquest(User user, String name_conquest, List<Conquest> VisibleConquest)
         {
-            foreach (var el in User.conquest)
+            foreach (var el in user.conquest)
             {
                 if (el.Name_conquest == name_conquest)
                 {
