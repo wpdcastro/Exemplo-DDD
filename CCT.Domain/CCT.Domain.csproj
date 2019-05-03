@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Forum\" />
+    <Folder Include="UserBC\Tests\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

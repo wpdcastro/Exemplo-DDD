@@ -10,7 +10,5 @@ namespace CCT.Domain.UserBC.Repositories
     public class IUserRepository
     {
         User getById(Guid id);
-        void Save(Customer customer);
-        IEnumerable<User> GetUsers(); 
     }
 }

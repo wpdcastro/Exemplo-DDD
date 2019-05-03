@@ -14,20 +14,26 @@ namespace CCT.Domain.User.ValueObjects
             MailAddress = mailAddress;
 
             if (String.IsNullOrEmpty(mailAddress))
-                AddNotification("mailAddress", "endereço do e-mail vazio");
+                AddNotification(mailAddress, "endereço do e-mail vazio");
 
         }
 
-        private void AddNotification(string v1, string v2)
+        private void AddNotification(String v1, String v2)
         {
-            throw new NotImplementedException();
+            new Contract()
+                    .Requires()
+                .IsTrue(Validate(), v1, v2);
         }
+        private bool Validate()
+        {
+            if (!String.IsNullOrEmpty(MailAddress))
+                return true;
 
+            return false;
+
+        }
         public string MailAddress { get; set; }
 
-        internal static string validate()
-        {
-            Email();
-        }
+        
     }
 }
