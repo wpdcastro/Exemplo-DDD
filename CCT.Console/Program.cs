@@ -13,9 +13,6 @@ namespace CCT.Console
             var fakeuser = new FakeUserRepository();
             var fakeperfil = new FakePerfilRepository();
             var fakeConquest = new FakeConquestRepository();
-            System.Console.WriteLine(fakeuser);
-            System.Console.WriteLine(fakeperfil);
-            System.Console.WriteLine(fakeConquest);
 
         }
     }
