@@ -1,0 +1,15 @@
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\bin\Debug\DDDCommerce.Infra.dll.config
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\bin\Debug\DDDCommerce.Infra.dll
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\bin\Debug\DDDCommerce.Infra.pdb
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\bin\Debug\CCT.Domain.dll
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\bin\Debug\EntityFramework.dll
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\bin\Debug\Flunt.dll
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\bin\Debug\CCT.Domain.pdb
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\bin\Debug\CCT.Domain.dll.config
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\bin\Debug\EntityFramework.xml
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\obj\Debug\DDDCommerce.Infra.csprojResolveAssemblyReference.cache
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\obj\Debug\DDDCommerce.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\obj\Debug\DDDCommerce.Infra.dll
+C:\Users\Lab\Desktop\cctMk1-master\DDDCommerce.Infra\obj\Debug\DDDCommerce.Infra.pdb
